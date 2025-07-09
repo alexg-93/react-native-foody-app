@@ -1,9 +1,9 @@
-import { View, Text, TouchableOpacity, Image, ImageProps } from 'react-native'
+import { View, Text, TouchableOpacity, Image, ImageSourcePropType } from 'react-native'
 import React from 'react'
 
 interface CartButtonProps {
     btnText: string;
-    icon:ImageProps
+    icon:ImageSourcePropType
     totalItems: number;
 }
 
